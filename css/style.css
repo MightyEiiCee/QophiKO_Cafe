@@ -205,13 +205,12 @@ section{
 }
 
 .home{
-    background:linear-gradient(rgba(0,0,0,0.97),rgba(0,0,0,0.7),rgba(0,0,0,0.97)),url(images/bg/shop.png) no-repeat;
+    background:linear-gradient(rgba(0,0,0,0.87),rgba(0,0,0,0.7),rgba(0,0,0,0.87)),url(images/bg/shop.png) no-repeat;
     background-size: cover;
     background-position: center;
     min-height: 100vh;
     display: flex;
-    align-items: center;
-    
+    align-items: center; 
 }
 .home .content img{
     width: 100%;
