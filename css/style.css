@@ -205,7 +205,7 @@ section{
 }
 
 .home{
-    background:linear-gradient(rgba(0,0,0,0.87),rgba(0,0,0,0.7),rgba(0,0,0,0.87)),url(images/bg/shop.png) no-repeat;
+    background:linear-gradient(rgba(0,0,0,0.87),rgba(0,0,0,0.7),rgba(0,0,0,0.87)),url(../images/bg/shop.png) no-repeat;
     background-size: cover;
     background-position: center;
     min-height: 100vh;
