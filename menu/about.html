@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QophiKo E-Commerce </title>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/fav/coffee.png" type="image/x-icon">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo">
+        <img src="images/logo/DWB.png" id="mylogo" alt="">
+    </a>
+
+    <nav class="navbar">
+        <ul>
+            <a href="home.html"><i class='bx bx-home'></i> Home</a>
+            <a href="about.html"><i class='bx bxs-user'></i> About Us</a>
+            <a href="ourproduct.html"><i class='bx bxl-product-hunt'></i> Products</a>
+            <a href="review.html"><i class='bx bx-comment'></i> Review</a>
+            <a href="contact.html"><i class='bx bx-phone' ></i> Contact</a>
+            </ul>
+    </nav>
+    <div class="icons">      
+        <img src="images/mode/sun.png" alt="" id="sun">
+        <div class="fas fa-bars" id="menu-btn"></div>
+    </div>
+</header>
+
+<!-- header section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+ 
+    <h1 class="heading"> <span>About</span> Us </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/featured/product.png" alt="">
+        </div>
+
+        <div class="content">
+            <h3>what makes our products special?</h3>
+            <p>Organic, rich in fibers and vitamins mix with natural coffee beans exported from the highlands of italy. Been tested and proved by coffee experts that these beans are one of the highest selling coffee glands that was tasted and farmed from the most trusted coffee makers. 
+
+                Best to try these coffee from which we had been clinically proven to have such unique taste and benefits that fits your cravings and satisfy your addiction to coffee. <br><br>
+                
+                Aside from coffee, we also offer milktea’s and pastries as an instant full experience of our one of a kind shop that sells quality products that is surely be the best shop you’ll ever been. <br><br>
+                
+                What are you waiting for? Let’s G as this shop will never get tired of serving standard products that will surely make you crave for this in your entire lifetime.</p>
+            <a href="#" class="btn">learn more</a>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="products" id="products">
+
+    <h1 class="heading"> our <span>products</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="images/featured/fp2.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Coffee</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="images/featured/1.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Milk Tea</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="images/featured/p1.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Pastries</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+    </div>
+
+   
+
+    <div class="credit">Developed by <span> <a href="https://www.facebook.com/profile.php?id=100023315375541">Guzman</a>, <a href="https://www.facebook.com/seaznn">Ponciano</a> & <a href="https://www.facebook.com/aya.the.Ambivert">Martinez</a></span> | 2022 | All rights reserved</div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+<script>
+    var icon = document.getElementById("sun");
+    var logo = document.getElementById("mylogo");
+    icon.onclick = function(){
+        document.body.classList.toggle("light-theme");
+        if (document.body.classList.contains("light-theme")){
+            icon.src = "images/mode/moon.png";
+            logo.src="images/logo/LWB.png";
+        }
+        else{
+            icon.src = "images/mode/sun.png";
+            logo.src="images/logo/DWB.png";
+        }
+    }   
+    
+</script>
+<script>
+    const loginForm = document.getElementById("login-form");
+        const loginButton = document.getElementById("login-form-submit");
+        const loginErrorMsg = document.getElementById("login-error-msg");
+
+    loginButton.addEventListener("click", (e) => {
+    e.preventDefault();
+    const username = loginForm.username.value;
+    const password = loginForm.password.value;
+
+    if (username == "Aldwin Chester" && password == "admin1234") {
+        alert("Hello "+ username);
+        window.location.replace("menu.html");   
+    } 
+    else if (username == "admin2" && password == "admin2") {
+        alert("Hello Second Admin!");
+        window.location.replace("menu.html");   
+    }
+
+    else {
+        alert("Wrong username or Password. Try Again!");
+        window.location.replace("menu.html"); 
+    }
+})
+</script>
+</body>
+</html>
